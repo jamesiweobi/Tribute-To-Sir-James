@@ -1,0 +1,11 @@
+#showcase .showcase-container {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  align-content: space-between;
+  justify-content: center;
+  height: 70vh;
+}
+img {
+  border-radius: 0 25% 0 25%;
+}

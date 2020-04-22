@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: #5c2018;
+  color: #fff;
+  
+}
+/* Element Tags */
+
+a {
+  color: aqua;
+}
+a:hover {
+  color: white;
+}
+
+p {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 0.9rem;
+  padding: 0.75rem 0;
+  line-height: 1.5;
+}
+h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+  padding: 0.75rem 5rem;
+}
+
+hr {
+border: dotted #fff 6px;
+border-bottom: none;
+width: 4%;
+margin: 1.5rem auto;
+}
+
+figcaption {
+  font-size: 0.8rem;
+  opacity: 0.5;
+}
+
+/* IDs */
+#showcase .showcase-container {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  justify-content: center;
+  height: 70vh;
+  padding: 0 8rem;
+}
+#showcase .showcase-container .img-div {
+  width: 400px;
+  height: 400px;
+}
+
+#image {
+  height: 300px;
+  width: 300px;
+}
+
+/* Classes */
+.socials > a {
+  padding: 0 0.75rem;
+}
+
+.pd-1 {
+  margin: 1rem 7rem;
+  max-width: 1100px;
+  }
+
+
+.first-letter-style {
+  font-family: "Lobster", cursive;
+  font-size: 1.4rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-style {
+  font-size: 1.5rem;
+  font-family: "Lobster", cursive;
+}
+
+.socials a:hover {
+  border: 2px solid  #f52004;
+  border-radius: 20%;
+}
+.footer-span {
+  font-size: 0.7rem;
+}
+footer > p {
+  text-align: center;
+  font-size: 0.65rem;
+}
